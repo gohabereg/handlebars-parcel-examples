@@ -1,0 +1,14 @@
+{
+  "name": "parcel-handlebars",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.hbs",
+    "build": "parcel build src/index.hbs"
+  },
+  "dependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "handlebars": "^4.7.7",
+    "parcel": "^2.7.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "parcel-handlebars-browser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "parcel": "^2.7.0"
+  }
+}
