@@ -1,4 +1,4 @@
 import template from './button.hbs';
 import Handlebars from 'handlebars/dist/handlebars.runtime';
 
-Handlebars.registerPartial('button', (props) => template({...props, styles}));
+Handlebars.registerPartial('button', template);
